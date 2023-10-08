@@ -6,11 +6,14 @@ authors = ["Konsta Kallio-Mannila <konsta.kalliomannila@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+python = ">=3.9,<3.13"
 pandas = "^2.1.1"
 scikit-learn = "^1.3.1"
 nltk = "^3.8.1"
 seaborn = "^0.13.0"
+vadersentiment = "^3.3.2"
+scipy = "^1.11.3"
+bayesian-bootstrap = "^1.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
