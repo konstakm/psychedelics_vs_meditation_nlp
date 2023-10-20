@@ -14,6 +14,7 @@ seaborn = "^0.13.0"
 vadersentiment = "^3.3.2"
 scipy = "^1.11.3"
 bayesian-bootstrap = "^1.1.0"
+spacy = "^3.7.2"
 
 
 [tool.poetry.group.dev.dependencies]
